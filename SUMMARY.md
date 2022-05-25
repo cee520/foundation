@@ -4,8 +4,8 @@
 
 ## 操作系统 <a href="#OS" id="OS"></a>
 
-* [Window 10](OS/window-10.md)
-* [Meet the Team!](OS/meet-the-team.md)
+* [Window 10](the-company/vision-and-values.md)
+* [Meet the Team!](the-company/meet-the-team.md)
 
 ## The Formal Stuff
 
