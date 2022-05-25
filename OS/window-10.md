@@ -4,9 +4,9 @@ cover: >-
 coverY: 0
 ---
 
-# Vision and Values
+# Window 10
 
-## Our Vision
+## 安装
 
 {% hint style="info" %}
 **Good to know:** a good vision statement shows the long-term goals of the company without getting too deep into strategy, implementation, or product specifics.
@@ -14,7 +14,7 @@ coverY: 0
 
 Our company vision is to **be the authoritative reference point for environmentally conscious buyers** and to **encourage more sustainable business practices** through curating beautiful, practical, consciously-produced products.
 
-## Our Values
+## 配置
 
 {% hint style="info" %}
 **Good to know:** company values are statements about how you approach work; how you treat colleagues, customers and users; and what your company stands for.
