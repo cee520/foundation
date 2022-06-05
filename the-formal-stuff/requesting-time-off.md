@@ -50,6 +50,17 @@ KILLDELAY 0
 
 apcaccess `#`查看设备的状态
 
+绑定USB串口
+
+[https://blog.csdn.net/walleva96/article/details/78347612](https://blog.csdn.net/walleva96/article/details/78347612)
+
+```
+lsusb 查看
+ls /dev 查看
+```
+
+
+
 /etc/udev/rules.d/local.rules
 
 ```
