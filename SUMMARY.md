@@ -7,7 +7,7 @@
 * [Window 10](the-company/vision-and-values.md)
 * [Meet the Team!](the-company/meet-the-team.md)
 
-## The Formal Stuff
+## 配置
 
-* [Requesting Time Off](the-formal-stuff/requesting-time-off.md)
-* [Filing Expenses](the-formal-stuff/filing-expenses.md)
+* [APC-UPS](pei-zhi/apc-ups.md)
+* [Filing Expenses](pei-zhi/filing-expenses.md)
