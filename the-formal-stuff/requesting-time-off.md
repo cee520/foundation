@@ -6,11 +6,17 @@ coverY: 0
 
 # APC-UPS
 
-To request time off, just fill in our simple form and we'll get it approved!
+APC UPS 软件包apcupsd 对大部分 APC的Smart-APC都支持。
 
 {% hint style="info" %}
 **Good to know:** you can embed public links, like this Typeform, to make data capture a breeze!
 {% endhint %}
+
+apt install apcupsd&#x20;
+
+apt install apcupsd-cgi 支持Http服务，可用浏览器查看UPS状态。
+
+
 
 /etc/apcupsd/apcupsd.conf
 
@@ -37,5 +43,20 @@ KILLDELAY 0
 # UPS在供电恢复后等待60秒再恢复对设备的供电
 #WAKEUP 60
 ```
+
+/etc/default/apcupsd
+
+&#x20;`ISCONFIGURED` 的 `no` no 选项改为 `yes`
+
+apcaccess `#`查看设备的状态
+
+/etc/udev/rules.d/local.rules
+
+```
+#Bus 002 Device 003: ID 0403:6001 Future Technology Devices International, Ltd FT232 Serial (UART) IC
+ENV{ID_BUS}=="usb", ENV{ID_VENDOR_ID}=="0403", ENV{ID_MODEL_ID}=="6001", SYMLINK+="apc-usb"
+```
+
+
 
 {% embed url="https://2w3pnm4iy73.typeform.com/to/P228Ngvj" %}

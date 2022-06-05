@@ -9,5 +9,5 @@
 
 ## 配置
 
-* [APC-UPS](pei-zhi/apc-ups.md)
-* [Filing Expenses](pei-zhi/filing-expenses.md)
+* [APC-UPS](the-formal-stuff/requesting-time-off.md)
+* [Filing Expenses](the-formal-stuff/filing-expenses.md)
