@@ -10,7 +10,11 @@ coverY: 0
 **Good to know:** an employee directory can be a great way to help new folks get familiar with everyone they're going to be working with.
 {% endhint %}
 
-## Esme DeWalt
+## P2P
+
+&#x20;[https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers\_all.txt](https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers\_all.txt)
+
+qBittorrent qbittorrent.org
 
 👋 CEO — 💌 esme@company.com — 🇺🇸 San Francisco (GMT-7)
 
