@@ -4,15 +4,35 @@ cover: >-
 coverY: 0
 ---
 
-# Meet the Team!
+# Ubuntu
 
 {% hint style="info" %}
 **Good to know:** an employee directory can be a great way to help new folks get familiar with everyone they're going to be working with.
 {% endhint %}
 
-## P2P
+## install&#x20;
 
-&#x20;[https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers\_all.txt](https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers\_all.txt)
+Node.js
+
+```
+curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+sudo apt-get update
+sudo apt install nodejs
+
+```
+
+Yarn
+
+```
+curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+sudo apt update
+
+sudo apt install yarn
+
+yarn config set registry https://registry.npm.taobao.org/
+yarn config get registry
+```
 
 qBittorrent qbittorrent.org
 

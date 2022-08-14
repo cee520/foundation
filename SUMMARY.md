@@ -5,7 +5,7 @@
 ## 操作系统 <a href="#OS" id="OS"></a>
 
 * [Window 10](the-company/vision-and-values.md)
-* [Meet the Team!](the-company/meet-the-team.md)
+* [Ubuntu](OS/ubuntu.md)
 
 ## 配置
 
