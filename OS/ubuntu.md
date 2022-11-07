@@ -97,6 +97,8 @@ docker exec -it myredis redis-cli
 
 ### **Postgres**
 
+Docker Install&#x20;
+
 ```
 docker search postgres
 docker pull postgres
@@ -108,6 +110,25 @@ docker exec -it mypostgres psql -U postgres -d postgres
 psql -U username -h ipaddress -d dbname
 select * from pg_tables;
 
+```
+
+Ubuntu Install
+
+```
+# Install Postgres dev
+# Create the file repository configuration:
+sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
+
+# Import the repository signing key:
+wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
+
+# Update the package lists:
+sudo apt-get update
+
+sudo apt install postgresql-12
+sudo apt install libpq-dev
+
+sudo -u postgres sql
 ```
 
 ###
