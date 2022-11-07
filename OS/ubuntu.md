@@ -131,6 +131,15 @@ sudo apt install libpq-dev
 sudo -u postgres sql
 ```
 
+```
+# Edit /etc/postgres/12/main/postgresql.conf
+listen = "localhost"
+
+# /etc/postgres/12/main/pg_hba.conf
+host all all 0.0.0.0/0 md5
+host replication all 127.0.0.1/32 trust
+```
+
 ###
 
 ### qBittorrent qbittorrent.org ****&#x20;
