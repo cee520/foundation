@@ -15,12 +15,16 @@ coverY: 0
 ### RVM
 
 ```
-https://rvm.io
+# 前提条件
+sudo apt install gnupg2
 
+# 安装 RVM https://rvm.io
 gpg2 --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
 curl -sSL https://get.rvm.io -o rvm_install.sh
 bash rvm_install.sh
 
+# 启用
+source /home/garden/.rvm/scripts/rvm
 ```
 
 ### Ruby
@@ -36,6 +40,9 @@ rvm gemset create r703
 
 ```
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+# 启用
+source "$HOME/.cargo/env"
+
 ```
 
 ### Docker
@@ -67,7 +74,7 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 
 ```
 curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
-sudo apt-get update
+# sudo apt-get update
 sudo apt install nodejs
 
 ```
@@ -77,7 +84,7 @@ sudo apt install nodejs
 ```
 curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
 echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
-sudo apt update
+# sudo apt update
 
 sudo apt install yarn
 
@@ -93,7 +100,11 @@ docker pull redis
 docker run --name myredis -d redis
 docker exec -it myredis redis-cli
 
+sudo apt install redis
+sudo systemctl enable redis-server.service
 ```
+
+
 
 ### **Postgres**
 
@@ -128,11 +139,13 @@ sudo apt-get update
 sudo apt install postgresql-12
 sudo apt install libpq-dev
 
-sudo -u postgres sql
+sudo -u postgres psql
 ```
 
+config
+
 ```
-# Edit /etc/postgres/12/main/postgresql.conf
+# Edit /etc/postgresql/12/main/postgresql.conf
 listen = "localhost"
 
 # /etc/postgres/12/main/pg_hba.conf
