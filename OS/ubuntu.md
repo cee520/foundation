@@ -1,14 +1,11 @@
 ---
+description: Ubuntu是一个古老的非洲语单词，意思是以人道善待他人，同时还有着“群在故我在”的意味。Ubuntu 操作系统将 Ubuntu 精神带到了计算机世界。
 cover: >-
   https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2970&q=80
 coverY: 0
 ---
 
 # Ubuntu
-
-{% hint style="info" %}
-**Good to know:** an employee directory can be a great way to help new folks get familiar with everyone they're going to be working with.
-{% endhint %}
 
 ## Install Env
 
@@ -60,7 +57,8 @@ sudo apt-get install \
 # Set up the repository:
 echo \
   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
-  $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null</code></pre>
+  $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+</code></pre>
 
 ```
 sudo apt-get update
