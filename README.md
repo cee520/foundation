@@ -2,8 +2,8 @@
 coverY: 0
 ---
 
-# Welcome!
+# 工欲善其事，必先利其器
 
-## Welcome aboard!
+## 概述
 
-Welcome to the company wiki! Here you'll find everything you need to know about the company.
+地球的演化是从无机物到有机物，从单细胞到多细胞，从低级智慧到高级智慧的过程。如果智慧发展是趋势，那算力和算法就是快速发展智慧的必要条件。计算机就是一个帮助你拥有算力和算法的好工具。

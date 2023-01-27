@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Welcome!](README.md)
+* [工欲善其事，必先利其器](README.md)
 
 ## 操作系统 <a href="#OS" id="OS"></a>
 
